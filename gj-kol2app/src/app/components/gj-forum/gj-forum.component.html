@@ -1,0 +1,6 @@
+<div class="row" style="display: flex;justify-content: center; margin-top: 2rem">
+  <div class="col-xl-3 col-md-6" *ngFor="let post of posts$">
+    <gj-forum-item [id]="post.id" [image]="post.image" [title]="post.title">
+    </gj-forum-item>
+  </div>
+</div>
